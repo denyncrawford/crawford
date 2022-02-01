@@ -19,7 +19,7 @@ onMounted(async () => {
         </div>
         <p
           class="dark:text-gray-300 text-slate-500 max-w-prose mt-5 mb-5"
-        >I'm a Full-Stack/multipurpose developer from Venezuela living in Argentina. <br> I like to do open source and decentralized stuff, I'm always trying to learn new and weird technologies...
+        >I'm a Full-Stack/multipurpose developer from Venezuela living in Argentina. <br> I like to do open source and decentralized stuff, I'm always trying to learn and adopt new technologies...
         Right now I'm learning Rust and I am already a proeficient in JavaScript, TypeScript, NodeJS, Deno and their ecosystem.
         </p>
         <code class="dark:bg-gray-700 bg-gray-200 dark:text-white rounded px-2 ml-auto mr-auto">const { deno , node } = 🖤;</code>
