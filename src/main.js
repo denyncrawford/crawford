@@ -13,10 +13,11 @@ import {
   HiMoon,
   CoFork,
   FaStar,
-  OiIssueOpened 
+  OiIssueOpened,
+  FaGlobeAmericas 
 } from "oh-vue-icons/icons";
 
-addIcons(SiDeno, FaGithub, FaStackOverflow, FaLinkedin, HiSun, HiMoon, CoFork, FaStar, OiIssueOpened );
+addIcons(SiDeno, FaGithub, FaStackOverflow, FaLinkedin, HiSun, HiMoon, CoFork, FaStar, OiIssueOpened, FaGlobeAmericas  );
 
 const app = createApp(App);
 app.component("Icon", OhVueIcon);

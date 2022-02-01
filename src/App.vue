@@ -20,8 +20,9 @@ const darkMode = computed(() => store.state.darkMode)
 
 onMounted( () => {
   const html = document.getElementsByTagName('html')[0];
-  html.classList.add(getTheme() === 'true' ? 'dark' : !getTheme() ? 'dark' : 'light');
-  store.commit('setTheme', JSON.parse(getTheme()))
+  const theme = getTheme() === 'true' ? 'dark' : !getTheme() ? 'dark' : 'light';
+  html.classList.add(theme);
+  store.commit('setTheme', getTheme() === 'true')
 })
 
 watch(darkMode, (value) => {

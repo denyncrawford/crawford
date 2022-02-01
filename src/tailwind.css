@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  *::selection {
+    @apply bg-indigo-500 text-white;
+  }
   * {
     scroll-behavior: smooth;
   }
