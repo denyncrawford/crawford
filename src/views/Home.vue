@@ -58,8 +58,8 @@ onMounted(async () => {
         </div>
       </div>
     </section>
-    <section id="support" class="w-full">
-      <div class="md:px-40 px-16 relative overflow-hidden">
+    <section id="support" class="w-full border-y border-gray-200 dark:border-slate-600 border-dashed">
+      <div class="md:px-40 my-20 px-16 relative overflow-hidden">
         <h1 class="text-4xl text-indigo-500">Do you want to support my work?</h1>
         <p class="mt-5 text-gray-400">Currently I only accept crypto payments, if you want to contribute with another method please contact me. <br> For now
           you can check some of this methods:</p>
