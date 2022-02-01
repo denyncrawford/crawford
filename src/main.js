@@ -14,10 +14,15 @@ import {
   CoFork,
   FaStar,
   OiIssueOpened,
-  FaGlobeAmericas 
+  FaGlobeAmericas,
+  FaBitcoin,
+  FaEthereum,
+  CiUsdt,
+  CiXlm,
+  SiBinance 
 } from "oh-vue-icons/icons";
 
-addIcons(SiDeno, FaGithub, FaStackOverflow, FaLinkedin, HiSun, HiMoon, CoFork, FaStar, OiIssueOpened, FaGlobeAmericas  );
+addIcons(SiDeno, FaGithub, FaStackOverflow, FaLinkedin, HiSun, HiMoon, CoFork, FaStar, OiIssueOpened, FaGlobeAmericas, FaBitcoin, FaEthereum, CiUsdt, CiXlm, SiBinance);
 
 const app = createApp(App);
 app.component("Icon", OhVueIcon);

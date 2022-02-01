@@ -10,6 +10,7 @@
       sm:px-28
       flex
       lg:py-8 items-center bg-white dark:bg-slate-900 justify-between
+      z-10
     "
   >
     <router-link to="/" tag="h2"

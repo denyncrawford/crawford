@@ -17,3 +17,7 @@
 .linkIcon {
   @apply h-8 w-8 text-indigo-500 hover:scale-150 transition
 }
+
+.general-code {
+  @apply dark:bg-gray-700 bg-gray-200 dark:text-white rounded px-2 ml-auto mr-auto;
+}

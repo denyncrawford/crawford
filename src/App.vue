@@ -14,6 +14,14 @@ import { useStore } from 'vuex'
 import Header from './components/Heder.vue'
 import Footer from './components/Footer.vue'
 import { setTheme, getTheme } from './services/localStorage.service.js'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+router.beforeEach((to, from, next) => {
+  document.title = `${to.meta.title || 'Portfolio'} - Miguel Rangel`
+  next()
+})
 
 const store = useStore()
 const darkMode = computed(() => store.state.darkMode)
