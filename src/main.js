@@ -1,17 +1,25 @@
-import { createApp } from 'vue'
-import './tailwind.css'
-import App from './App.vue'
-import { routes } from './routes.js'
-import { createRouter, createWebHistory } from 'vue-router'
-import store from './store.js'
+import { createApp } from "vue";
+import "./tailwind.css";
+import App from "./App.vue";
+import router from "./router.js";
+import store from "./store.js";
+import { addIcons, OhVueIcon } from "oh-vue-icons";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaStackOverflow,
+  HiSun,
+  SiDeno,
+  HiMoon,
+  CoFork,
+  FaStar,
+  OiIssueOpened 
+} from "oh-vue-icons/icons";
 
-const app = createApp(App)
+addIcons(SiDeno, FaGithub, FaStackOverflow, FaLinkedin, HiSun, HiMoon, CoFork, FaStar, OiIssueOpened );
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes,
-})
-
-app.use(router)
-app.use(store)
-app.mount('#app')
+const app = createApp(App);
+app.component("Icon", OhVueIcon);
+app.use(router);
+app.use(store);
+app.mount("#app");

@@ -5,22 +5,24 @@
       px-4
       py-12
       mx-auto
+      fixed
       sm:px-6
-      lg:py-8 lg:px-28 lg:flex lg:items-center lg:justify-between
+      lg:py-8 lg:px-28 lg:flex lg:items-center bg-white dark:bg-slate-900 lg:justify-between
     "
   >
-    <h2
+    <router-link to="/" tag="h2"
       class="
-        text-3xl
+        text-2xl
         text-indigo-600
         sm:text-3xl
+        font-bold
       "
     >
-      Crawford.
-    </h2>
+      Miguel Rangel
+    </router-link>
     <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-      <HeaderButton to="/"> Home </HeaderButton>
-      <HeaderButton to="/about"> About </HeaderButton>
+      <HeaderButton to="/"> About Me </HeaderButton>
+      <HeaderButton to="/blog"> Blog </HeaderButton>
       <ButtonRepo />
     </div>
   </div>

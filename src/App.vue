@@ -1,16 +1,18 @@
 <template>
-  <div class="h-full w-full flex flex-col dark:bg-slate-900">
-    <Heder/>
-    <div class="flex-1">
+  <div class="w-full flex flex-col">
+    <Header/>
+    <div>
       <router-view/>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script setup>
 import { computed, onMounted, watch } from 'vue'
 import { useStore } from 'vuex'
-import Heder from './components/Heder.vue'
+import Header from './components/Heder.vue'
+import Footer from './components/Footer.vue'
 import { setTheme, getTheme } from './services/localStorage.service.js'
 
 const store = useStore()
