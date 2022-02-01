@@ -78,21 +78,21 @@ onMounted(async () => {
           </div>
           <div class="flex flex-col md:flex-row items-left md:items-center text-gray-400 mb-2 md:mb-0">
             <Icon name="ci-xlm" class="text-gray-500 fill-indigo-500 w-8 h-8 dark:fill-gray-200" />
-            <div class="flex md:ml-5">
+            <div class="flex md:ml-5 items-center">
               <p><code class="general-code break-all">GCUWODWKWQCOH32U534WWY3GI4GOPXZI2KH3PVYH2FCZ6C2RO32XYKLR</code></p>
               <p class="text-xs text-yellow-400 font-bold ml-5">(XLM)</p>
             </div>
           </div>
           <div class="flex flex-col md:flex-row items-left md:items-center text-gray-400 mb-2 md:mb-0">
             <Icon name="fa-bitcoin" class="text-gray-500 fill-indigo-500 w-8 h-8 dark:fill-gray-200" />
-            <div class="flex md:ml-5">
+            <div class="flex md:ml-5 items-center">
               <p><code class="general-code break-all">1AwAW9gj7zsHWjoawm1yFntjE69uvEjJTv</code></p>
               <p class="ml-5 text-xs text-yellow-400 font-bold">(BTC)</p>
             </div>
           </div>
           <div class="flex flex-col md:flex-row items-left md:items-center text-gray-400 mb-2 md:mb-0">
             <Icon name="si-binance" class="text-gray-500 fill-indigo-500 w-8 h-8 dark:fill-gray-200" />
-            <div class="flex md:ml-5">
+            <div class="flex md:ml-5 items-center">
               <p><code class="general-code">201620636</code></p>
               <p class="ml-5 text-xs text-yellow-400 font-bold">(PAY)</p>
             </div>
