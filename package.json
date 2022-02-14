@@ -10,7 +10,7 @@
     "axios": "^0.24.0",
     "language-colors": "^1.184.0",
     "oh-vue-icons": "^1.0.0-rc2",
-    "vue": "^3.2.26",
+    "vue": "^3.2.31",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
